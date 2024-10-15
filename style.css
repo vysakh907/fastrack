@@ -1,0 +1,502 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+.marq{
+    height: 2rem;
+    width: 100%;
+    background-color: black;
+}
+.marqu{
+    color: aliceblue;
+    padding-top: .3rem;
+    
+   
+}
+/*navbar  */
+.navbar {
+    width: 100%;
+    height: 4rem;
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    color: #0d0d0d;
+}
+
+.logo {
+    height: 3rem;
+    width: 11rem;
+}
+
+.wsrsgam {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-left: auto; /* This pushes the menu items to the right */
+}
+
+.list-item {
+    text-decoration: none;
+    margin-left: 1.6rem;
+    color: black;
+}
+
+.list-item:hover {
+    color: chocolate;
+    border-bottom: 3px solid chocolate;
+}
+.icon-list{
+    display: flex;
+    margin-right: 10rem;
+    
+}
+#iid{
+    margin-left: 1rem;
+    color: black;
+}
+#iid:hover{
+    color: chocolate;
+}
+.first-img{
+    margin-top: 1.2rem;
+}
+#home{
+    margin-top: 2rem;
+    margin-left: 190px;
+}
+#one{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#heading-one{
+    margin-top: 1rem;
+    margin-left: 35rem;
+}
+#head-one{
+    font-weight: 100;
+}
+#two{
+    margin-top: 1rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/*message-icon  */
+/* .msg-icon {
+    margin-left: 5% !important;
+    margin-top: 10% !important;
+    position: fixed;
+    
+} */
+/* first set of images */
+.a1{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    img{
+        width: 19%;
+        height: 15%;
+    }
+}
+.a2{
+    margin: 1.3rem;
+    
+
+}
+/* 2nd image */
+.a3{
+    margin-top: 3rem;
+    
+}
+/* marquee 2 */
+.marq2{
+    height: 2rem;
+    width: 100rem;
+    background-color: black;
+    margin-top: 2rem;
+    width: 100%;
+
+}
+.marqu2{
+    color: aliceblue;
+    padding-top: .3rem;
+   line-height: 1rem;
+   font-weight: 700;
+}
+.head1{
+    margin-top: 2rem;
+    margin-left: 9rem;
+    font-weight: 100;
+}
+/* watch and price */
+.a4{
+    /* background-color: aqua;
+    border: .1rem solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+    
+}
+.a5{
+    height:26rem ;
+    width: 20rem;
+    background-color: rgb(247, 247, 255);
+    border: .01rem solid black;
+    margin-top: 1.5rem;
+    margin: 1rem;
+    
+
+   
+    
+}
+#image1{
+    width: 100%;
+    height: 70%;
+}
+#shop1:hover{
+    text-decoration: underline;
+}
+#shop1{
+    color: black;
+    margin-left: .7rem;
+    text-decoration: none;
+    margin-top: 1.4rem;
+}
+.off{
+    color: chocolate;
+}
+.price{
+    margin-top: 1rem;
+}
+/* 3rd img */
+#slide-ima{
+    width: 78%;
+    
+  
+}
+.slide-image{
+    margin-top: 2rem;
+   
+}
+.head-three{
+    margin-left: 5rem;
+    margin-top: 2rem;
+    font-weight: 100;
+
+}
+
+.movie2{
+    height: 30rem;
+    width: 70rem;
+    margin-left: 15%;
+    margin-top: 5%;
+    
+}
+/* watch and image */
+.wm-main{
+    height: 47rem;
+    width: 100rem;
+    /* background-color: brown; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.wm-sub{
+    height: 44rem;
+    width: 43rem;
+    /* background-color: aqua; */
+    border-radius: 1rem;
+    /* border: .1rem solid black; */
+    margin: 1rem;
+    
+}
+#watch{
+    width: 70%;
+    margin-left: 9rem;
+}
+#wm-head{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+#wm-para{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+#wm-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+/* footer */
+/* .foot{
+    background-color: black;
+    border: .1rem solid ;
+    display: flex;
+    justify-content: space-between;
+
+}
+.foot-sub{
+    background-color:black;
+    border: .2rem solid;
+    
+    
+} */
+/* 1st div */
+/* #face-img{
+    margin-bottom: 4rem;
+    width: 200%;
+}
+.s-icon{
+    margin: 1rem;
+}
+/* 2nd div */
+/* #customer-option{
+    margin-top: 1rem;
+    line-height: 2rem;
+    color: aliceblue;
+} */
+/* .cs{
+   color: aliceblue;
+}
+
+#poli-option{
+    margin-top: 1rem;
+    line-height: 2rem;
+    color: aliceblue;
+}
+.poli{
+    color: aliceblue;
+}
+
+.about{
+    color: aliceblue;
+
+}
+#about-option{
+    margin-top: 1rem;
+    line-height: 2rem;
+    color: aliceblue;
+}
+.down{
+    margin-top: 2rem;
+    color: aliceblue;
+}
+.app{
+    margin-top: 2.3rem;
+    width: 45%;
+}
+.play{
+    width: 50%;
+    height: 4rem;
+    
+} */
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black; /* Adjust background color as needed */
+    padding: 20px;
+    color: #fff; /* Default text color */
+}
+
+.foot-sub {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.foot-sub img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle; /* Aligns the icons vertically with the text */
+}
+
+.s-icon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.down,.poli {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#about-option {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.i1{
+    display: flex;
+}
+.app, .play {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+#customer-option, #poli-option, #about-option {
+    margin-top: 10px;
+}
+/* responsive */
+
+@media (max-width: 768px) {
+    
+    .top {
+        justify-content: space-between;
+        padding: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-right: auto;
+    }
+
+    .logo {
+        order: 2; /* Move logo to the right */
+        margin-left: auto    }
+
+    .wsrsgam {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%; /* Position the dropdown below the navbar */
+        left: 0;
+        width: 100%;
+        padding-left: 0;
+        margin-top: 0;
+        background-color: antiquewhite;
+        z-index: 999;
+    }
+
+    .list-item {
+        padding: 10px 0;
+        margin-left: 0;
+        text-align: left;
+        width: 100%;
+    }
+
+    /* Display dropdown when menu icon is clicked */
+    #menu-toggle:checked ~ .wsrsgam {
+        display: flex;
+    }
+    .list-item label {
+        cursor: pointer;
+        display: block;
+        width: 100%;
+    }
+    .msg-icon {
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        margin: 0;
+    }
+
+    .first-img img {
+        height: auto;
+    }
+
+    #heading-one {
+        text-align: center;
+        margin-left: 0;
+    }
+    .head-three {
+        font-size: 1.5rem; /* Smaller font size */
+        text-align: center; /* Center align the heading */
+        margin-top: 1rem; /* Reduce top margin */
+    }
+
+    /* Adjust movie container for smaller screens */
+    .movie {
+        display: flex;
+        flex-direction: column; /* Stack the video and text vertically */
+        align-items: center;
+        width: 100%; /* Make sure it takes the full width */
+        padding: 0 1rem; /* Add some padding for spacing */
+    }
+
+    /* Adjust the iframe for smaller screens */
+    .movie2 iframe {
+        width: 100%; /* Make the video take full width */
+        height: auto; /* Adjust height automatically */
+    }
+
+    .a1{
+        flex-direction: column;
+        align-items: center;
+       img{
+        height: 350px;
+        width: 300px;
+       }
+    }
+   
+    .a4 {
+        flex-direction: column;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+   
+
+    .app, .play {
+        margin-top: 10px;
+    }
+
+   
+    .wm-main {
+        display: none;
+    }
+   #face-img{
+    width: 100%;
+   }
+}
+@media (max-width: 480px) {
+    .head-three {
+        font-size: 1.2rem; /* Even smaller font size */
+        text-align: center;
+    }
+
+    .movie2 iframe {
+        width: 100%; /* Ensure full width for very small screens */
+    }
+    .wm-main {
+        display: none;
+    }
+    .menu-icon {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        height: 2.5rem;
+        width: auto;
+    }
+
+    .list-item {
+        font-size: 0.9rem;
+    }
+
+}
